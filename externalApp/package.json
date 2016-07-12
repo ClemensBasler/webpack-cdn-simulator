@@ -9,7 +9,9 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "start": "webpack && node server.js"
+    "start": "webpack && node server.js",
+    "watch": "webpack --progress --colors --watch",
+    "serve": "node server.js"
   },
   "repository": {
     "type": "git",

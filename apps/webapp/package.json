@@ -13,7 +13,7 @@
     "url": "git+https://github.com/ClemensBasler/webpack-cdn-simulator.git"
   },
   "author": "Clemens Basler",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ClemensBasler/webpack-cdn-simulator/issues"
   },

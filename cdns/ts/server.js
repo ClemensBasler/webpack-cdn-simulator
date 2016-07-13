@@ -3,6 +3,6 @@ var app = express();
 
 app.use(express.static('dist'));
 
-app.listen(1100, function () {
-  console.log('Example app listening on port 1100!');
+app.listen(3100, function () {
+  console.log('Example app listening on port 3100!');
 });

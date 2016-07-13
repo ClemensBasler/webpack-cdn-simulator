@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack && node server.js"
+    "start": "gulp build && node server.js"
   },
   "author": "",
   "license": "MIT",
@@ -13,5 +13,9 @@
     "express": "^4.14.0",
     "jquery": "^3.1.0",
     "ts-loader": "^0.8.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "webpack-stream": "^3.2.0"
   }
 }

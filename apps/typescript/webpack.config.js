@@ -1,7 +1,6 @@
 module.exports = {
   entry: './src/tsStuff.ts',
   output: {
-    path: 'dist',
     filename: 'tsStuff.bundle.js'
   },
   resolve: {

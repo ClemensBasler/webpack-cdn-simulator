@@ -1,0 +1,17 @@
+{
+  "name": "fakecdn-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack && node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "ts-loader": "^0.8.2"
+  }
+}

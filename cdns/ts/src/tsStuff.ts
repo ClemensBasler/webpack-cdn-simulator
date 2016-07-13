@@ -2,5 +2,5 @@ import greeter = require('./greeter');
 import $ = require('jquery');
 
 $(() => {
-  $(document.body).html(greeter("You"));
+  $(document.body).html(greeter("from the ts cdn :)"));
 });

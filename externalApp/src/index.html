@@ -2,11 +2,13 @@
 <html ng-app>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css" />
     </head>
     <body>
         <input placeholder="human" ng-model="name"></input>
         <div>Hello {{name}}! Angular works cause its included in app.bundle!</div>
-        <script src="http://localhost:3000/app.bundle.js" charset="utf-8"></script>
+        <div class="red">and this is red!</div>
+        <script src="http://localhost:3000/cdn.bundle.js" charset="utf-8"></script>
         <script src="./app.bundle.js" charset="utf-8"></script>
 
     </body>

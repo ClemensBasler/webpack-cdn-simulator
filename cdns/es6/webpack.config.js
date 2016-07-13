@@ -2,7 +2,7 @@ module.exports = {
     entry: './src/cdn.js',
     output: {
         path: './dist',
-        filename: 'cdn.bundle.js',
+        filename: 'cdn.es6.js',
     },
     module: {
         loaders: [{

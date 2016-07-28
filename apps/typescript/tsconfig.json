@@ -4,7 +4,7 @@
   },
   "files": [
     "src/tsStuff.ts",
-    "typings/tsd.d.ts"
+    "typings/index.d.ts"
   ],
   "compileOnSave": false
 }
